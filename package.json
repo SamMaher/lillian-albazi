@@ -17,7 +17,8 @@
 	"author": "Sam Maher",
 	"license": "ISC",
 	"resolutions": {
-		"styled-components": "^5"
+        "styled-components": "^5",
+        "@types/webpack": "^4.41.17"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -38,7 +39,7 @@
 		"strapi-plugin-upload": "3.6.2",
 		"strapi-plugin-users-permissions": "3.6.2",
 		"strapi-utils": "3.6.2",
-		"styled-normalize": "^8.0.7"
+        "styled-normalize": "^8.0.7"
 	},
 	"devDependencies": {
 		"@types/html-webpack-plugin": "^3.2.5",
