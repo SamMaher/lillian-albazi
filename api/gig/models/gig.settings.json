@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gigs",
+  "info": {
+    "name": "Gig"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "Datetime": {
+      "type": "datetime",
+      "required": true
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}
